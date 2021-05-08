@@ -4,8 +4,8 @@ constructor(body, point){
 
     var options = {
      bodyA:body,pointB:point,
-     stiffness:0.5,
-     length:100
+     stiffness:0.05,
+     length:1
     }
     this.sling = Matter.Constraint.create(options)
     this.bodyA = body;
