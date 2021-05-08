@@ -33,7 +33,16 @@ function setup() {
 	slingShot = new Slingshot(stone.body, {x:150,y:500})
 
 	mango1 = new Mango(600, 300, 20);
-	mango2 = new Mango(550, 300, 40);
+	mango2 = new Mango(550, 300, 30);
+	mango3 = new Mango(500, 400, 10);
+	mango4 = new Mango(650, 500, 20);
+	mango5 = new Mango(450, 550, 20);
+	mango6 = new Mango(570, 435, 30);
+	mango7 = new Mango(530, 345, 40);
+	mango8 = new Mango(520, 370, 15);
+	mango9 = new Mango(485, 470, 20);
+	
+	
 	
 
 
@@ -58,8 +67,16 @@ function draw() {
   mango1.display();
   mango2.display();
 
-  collission(mango1,stone);
-  collission(mango2,stone);
+collission(mango1,stone);
+collission(mango2,stone);
+collission(mango3,stone);
+collission(mango4,stone);
+collission(mango5,stone);
+collission(mango6,stone);
+collission(mango7,stone);
+collission(mango8,stone);
+collission(mango9,stone);
+	
  
 }
 
