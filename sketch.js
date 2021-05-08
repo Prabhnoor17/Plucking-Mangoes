@@ -64,8 +64,15 @@ function draw() {
   stone.display();
   slingShot.display();
 
-  mango1.display();
-  mango2.display();
+mango1.display();
+mango2.display();
+mango3.display();
+mango4.display();
+mango5.display();
+mango6.display();
+mango7.display();
+mango8.display();
+mango9.display();
 
 collission(mango1,stone);
 collission(mango2,stone);
